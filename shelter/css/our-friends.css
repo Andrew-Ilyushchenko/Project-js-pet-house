@@ -2,7 +2,6 @@
     position: relative;
     overflow: hidden;
 }
-
 .title {
     text-align: center;
     padding: 80px 0 60px 0;
@@ -22,7 +21,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .btn-card {
     margin: auto;
     background-color: #FAFAFA;
@@ -50,7 +48,6 @@
     border: none;
     transition: 0.3s;
 }
-
 .popup {
     position: fixed;
     width: 100%;
@@ -137,8 +134,6 @@
     letter-spacing: 0.06em;
     color: #000000;
     margin-bottom: 40px;
-}
-.popup__list {
 }
 .popup__list_item {
     font-family: 'Georgia';

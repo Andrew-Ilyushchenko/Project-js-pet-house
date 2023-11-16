@@ -29,7 +29,6 @@ html{
         padding: 0 0.625rem;
     }
 }
-/* Header */
 
 .header {
     padding: 30px 0;
@@ -125,7 +124,7 @@ html{
     }
 }
 
-/* Our friends */
+
 .our-friends {
     padding: 80px 0 100px 0;
     background: #F6F6F6;
@@ -275,7 +274,7 @@ html{
         gap: 0.625rem;
     }
 }
-/* Footer */
+
 
 .footer-background {
     margin: auto;
@@ -367,8 +366,6 @@ html{
     .footer-wrap{
         padding: 40px 0 0 0;
     }
-    
-
 }
 @media(max-width: 960px){
     .footer-wrap-img{
