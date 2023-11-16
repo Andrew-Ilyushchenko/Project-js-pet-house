@@ -1,0 +1,121 @@
+.itc-slider {
+  position: relative;
+}
+
+.itc-slider__wrapper {
+  overflow: hidden;
+  max-width: 990px;
+  margin: auto;
+}
+
+.itc-slider__items {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.itc-slider__transition-none {
+  transition: none;
+}
+
+.itc-slider__item {
+  flex: 0 0 33.3333333333%;
+  max-width: 100%;
+  max-width: 270px;
+  user-select: none;
+  will-change: transform;
+  background: #FAFAFA;
+  border-radius: 9px;
+  margin-right: 90px;
+  transition: 0.3s;
+}
+
+.itc-slider__btn {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transform: rotate(-180deg);
+}
+
+.itc-slider__btn_hide {
+  display: none;
+}
+
+.itc-slider__btn_prev {
+  left: 0;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background-image: url(../img/Arrow.svg);
+  transform: rotate(0deg);
+  margin-right: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 23px 19px;
+  transition: 0.3s;
+}
+
+.itc-slider__btn_next {
+  right: 0;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  margin-left: 75px;
+  background-image: url(../img/Arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 23px 19px;
+  transition: 0.3s;
+}
+
+.itc-slider__btn:hover,
+.itc-slider__btn:focus {
+  background-color: #FDDCC4;
+}
+
+.itc-slider__btn::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+@media(max-width: 1194px){
+  .itc-slider__wrapper{
+    max-width: 580px;
+  }
+  .itc-slider__item{
+    margin-right: 40px;
+  }
+}
+@media(max-width: 778px){
+  .itc-slider__wrapper{
+    max-width: 280px;
+  }
+  .itc-slider__item{
+    margin-right: 40px;
+  }
+}
+@media(max-width: 468px){
+
+  .itc-slider__btn_prev{
+    margin-left: 43px;
+  }
+  .itc-slider__btn_next{
+    margin-right: 43px;
+  }
+  .itc-slider__btn {
+    top: 106%;
+  }
+}

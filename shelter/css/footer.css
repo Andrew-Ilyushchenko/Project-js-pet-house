@@ -1,0 +1,115 @@
+.footer-background {
+    margin: auto;
+    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+.footer-wrap {
+    padding: 40px 40px 0 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-wrap-text{
+    max-width: 17.4rem;
+}
+.footere-wrap-text-second{
+    max-width: 18.875rem;
+}
+.footer-main-text {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.footer-address-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-contact {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+.footer-email,.footer-phone {
+    margin-top: 40px;
+}
+.footer-email:before {
+    content: '';
+    width: 40px;
+    height: 32px;
+    background-image: url(../img/icon-email.svg);
+    display: inline-block;
+    margin-right: 20px;
+    background-position: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer-phone:before {
+    content: '';
+    width: 40px;
+    height: 32px;
+    background-image: url(../img/icon-phone.svg);
+    display: inline-block;
+    background-position: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer-address-first{
+    margin-top: 34px;
+}
+.footer-address-second{
+    margin-top: 32px;
+}
+.footer-address:before {
+    content: '';
+    width: 22px;
+    height: 32px;
+    background-image: url(../img/icon-marker.svg);
+    display: inline-block;
+    background-position: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer-img {
+    width: 300px;
+    max-height: 300px;
+}
+@media(max-width: 1152px){
+    .footer-wrap{
+        padding: 40px 0 0 0;
+    }
+}
+@media(max-width: 960px){
+    .footer-wrap-img{
+        margin-top: 4.0625rem;
+    }    
+}
+@media(max-width: 641px){
+    .footer-wrap{
+        margin: auto;
+    }
+    .footere-wrap-text-second{
+        margin-top: 2.5rem;
+    }
+    .footer-main-text{
+        text-align: center;
+    }
+}
+@media(max-width: 450px){
+    .footer-img{
+        width: 260px;
+    }
+    .footer-main-text{
+        font-size: 1.5625rem;
+    }
+}

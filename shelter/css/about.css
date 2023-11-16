@@ -1,0 +1,61 @@
+.about {
+    padding: 80px 0 100px 0;
+}
+.about-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 175px;
+}
+.about-img-wrap {
+    margin-right: 120px;
+}
+.about-title {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+}
+.about-text p{
+    margin-top: 25px;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+@media (max-width: 1200px){
+    .about-wrap{
+        flex-direction: column-reverse;
+    }
+    .about-img-wrap {
+        margin: auto;
+        margin-top: 5rem;
+    }
+    .about {
+        padding: 2.625rem 0;
+    }
+}
+@media (max-width: 996px){
+    .about-wrap{
+        margin: auto;
+        max-width: 26.875rem;
+    }
+}
+@media (max-width: 348px){
+    .about-title{
+        font-size: 1.5625rem;
+    }
+}
+@media (max-width: 320px){
+    .about-img{
+        max-width: 16.25rem;
+    }
+    .about-title{
+        text-align: center;
+    }
+    .about-text p{
+        text-align: justify;
+    }
+}

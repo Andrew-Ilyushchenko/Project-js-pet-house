@@ -1,0 +1,68 @@
+@import url(./about.css);
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./help.css);
+@import url(./addition.css);
+@import url(./not-only.css);
+@import url(./our-friends.css);
+@import url(./cdn.css);
+@import url(./itc-slider.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    transition: 0.3s;
+}
+body.lock{
+    overflow: hidden;
+    background-color: rgba(41, 41, 41, 0.6); 
+}
+.container{
+    max-width: 80rem;
+    padding: 0 2.5rem;
+    margin: auto;
+}
+.header, .not-only{
+    margin: auto;
+    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+.background-color{
+    background: #F6F6F6;
+    margin: auto;
+}
+.btn{
+    border-radius: 100px;
+    padding: 15px 45px;
+    gap: 10px;
+    cursor: pointer;
+}
+.title {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+}
+@media(max-width: 769px){
+    .container{
+        padding: 0 1.875rem;
+    }
+}
+@media(max-width: 400px){
+    .title{
+        font-size: 1.5625rem;
+        padding: 42px 0 42px 0;
+    }
+}
+@media(max-width: 367px){
+    .container{
+        padding: 0 0.625rem;
+    }
+}
+

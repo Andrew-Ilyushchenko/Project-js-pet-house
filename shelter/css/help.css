@@ -1,0 +1,57 @@
+.help-title {
+    text-align: center;
+    padding-top: 80px;
+}
+.help-wrap-cards {
+    margin: auto;
+    margin-bottom: 100px;
+    max-width: 1026px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:  3.4375rem 7.5rem;
+}
+.help-wrap-img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+} 
+.help-img {
+    width: 100%;
+}
+.help-card-title{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: #545454;
+    text-align: center;
+    margin-top: 30px;
+}
+@media(max-width: 840px){
+    .help-wrap-card{
+        width: 10.625rem;
+    }
+    .help-wrap-cards{
+        gap: 3.4375rem 3.75rem;
+    }
+}
+@media(max-width: 690px){
+    .help-wrap-cards{
+    }
+}
+@media(max-width: 460px){
+    .help-wrap-card{
+        width: 8.125rem;
+    }
+    .help-wrap-cards{
+        gap: 1.875rem;
+        margin-bottom: 42px;
+    }
+    .help-card-title{
+        font-size: 0.9375rem;
+    }
+}
